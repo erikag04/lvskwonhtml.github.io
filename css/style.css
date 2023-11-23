@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #437ec0;
+    font-family: 'Playfair Display', serif;
+}
+section{
+    padding:20px 250px 20px 250px
+}
+p{
+    color: #b7cee7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+h2{
+    font-size: 40px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+h3{
+    color: #799ec8;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    position: fixed;
+    background-color: #437ec0;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    height: 54px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    padding-top: 10px;
+}
+ul{
+    list-style-type: none;
+}
+cite{
+    font-weight: 300;
+}
+#i{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+i:hover{
+    color: #8ab2df;
+}
+a{
+    text-decoration: none;
+}
+a:any-link{
+    color: white;
+
+}
+a:-webkit-any-link{
+    color: white;
+
+}
+a:-moz-any-link{
+    color: white;
+
+}
+a:hover{
+    color: #8ab2df;
+}
+li{
+    float: left;
+    margin-right: 5px;
+    
+}
+button{
+    border-radius: 10px;
+}
+#logo{
+    padding-top: 0px;
+}
+.hastag{
+    color: rgb(137, 198, 231);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#curiosidades{
+    border-top: 3px solid #325e8e;
+    background-color: white;
+    color: #799ec8;
+    text-align: center;
+}
+#curiosidades .card{
+    margin-left: 5px;
+}
+#curiosidades h4{
+    color: #ffffff;
+}
+#sobreel{
+    color: #b2c8e0;
+}
+#inicio{
+    background-image: url(../imagen/luna.png);
+    min-height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(6, 41, 65)
+}
+#composiciones{
+    background-color: #437ec0;
+    color: #b2c8e0;
+}
+#composiciones h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+#composiciones h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 0px;
+}
+#composiciones h4,#portfolio h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+#composiciones p, #curiosidades p{
+    font-size: 15px;
+}
+/*Card experiencia*/
+.gridexp{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-gap:10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+@media (min-width: 400px){
+    .gridexp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
+.cardexp{
+    background-color: #789cc5;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+    width: 200px;
+    box-shadow: #325e8e 0px 5px 5px;
+}
+.cardexp h2{
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+.cardexp h3{
+    margin-bottom: 20px;
+    color: #d2e2f3;
+}
+.cardexp p{
+    margin-bottom: 20px;
+    color: #b9cfe7  ;
+}
+.cardexp ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.cardexp li{
+    height: 30px;
+}
+footer{
+    height: 55px;
+    padding-top: 10px;
+    text-align: center;
+}
+footer ul{
+    display: inline-block;
+}
+footer ul li{
+    float:left;
+}
+#galería{
+    border-top: 3px solid #325e8e;
+    background-color: white;
+    color: #799ec8;
+    text-align: center;
+}
+#galería li{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#galería img{
+    border-radius: 15px 15px 15px 15px;
+    margin-right: 20px;
+    margin: 10px;
+}
+#sobreel{
+    display: grid;
+    grid-template-columns: 300px 1fr
+}
+#sobreel h2{
+    margin-bottom: 20px;
+}
+#sobreel .masinfo{
+    margin-top: 15px;
+}
+#sobreel .masinfo button{
+    color: #ffffff;
+    background-color: #4e8dd1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#contactar{
+    background-color: #b2c8e0;
+    color: #222;
+}
+.filaportfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.card{
+    width: 250px;
+    background-color: #325e8e;
+    border-radius: 15px;
+}
+.card img,.card video,.card iframe{
+    border-radius: 15px 15px 0 0;
+}
+.card h3{
+    color: #ffffff;
+}
+.card h4{
+    margin:0 5px 5px 0;
+}
+.card h3,.card h4,.card p,.card .masinfo{
+    padding: 0 15px;
+}
+.card .masinfo {
+    margin: 15px 0px 15px 0 px;
+    height: 26px;
+    border-radius: 15px;
+}
+.card .sep{
+    margin: 0 5px 5px 0;
+    border: 1px solid #8f9ada;
+}
+.card .masinfo button{
+    float: right;
+    background-color: #8ab2df;
+}
+.masinfo button{
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+/*Formulario*/
+#contactar h2{
+    color: #6b8cb3;
+}
+#contactar h3{
+    color: #8f9ada;
+}
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.itemform label{
+    font-weight: 700;
+}
+.itemform input,.itemform textarea{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+input[type="submit"]{
+    background-color: #1826a2;
+    border: 1px solid #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+}
